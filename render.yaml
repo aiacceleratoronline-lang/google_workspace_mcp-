@@ -1,2 +1,16 @@
-buildCommand: "pip install -r requirements.txt"
-startCommand: "python main.py --transport streamable-http"
+services:
+  - type: web
+    name: google_workspace_mcp
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py --transport streamable-http"
+    plan: free
+    envVars:
+      - key: CLIENT_ID
+        sync: false
+      - key: CLIENT_SECRET
+        sync: false
+      - key: REDIRECT_URI
+        sync: false
+      - key: SCOPES
+        sync: false
