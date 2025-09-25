@@ -139,3 +139,5 @@ The chart includes health checks that verify the application is running correctl
 For issues and questions:
 - GitHub: https://github.com/taylorwilsdon/google_workspace_mcp
 - Documentation: https://workspacemcp.com
+
+test
