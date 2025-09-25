@@ -141,3 +141,4 @@ For issues and questions:
 - Documentation: https://workspacemcp.com
 
 test
+МСР test
